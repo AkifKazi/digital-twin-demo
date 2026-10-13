@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover, interactive-widget=resizes-content">
     <meta name="theme-color" content="#071216">
-    <title>Akif's WebGL</title>
+    <title>Digital Twin</title>
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <main id="unity-container" aria-label="Akif's WebGL digital twin">
+    <main id="unity-container" aria-label="Digital Twin">
       <canvas id="unity-canvas" tabindex="-1"></canvas>
       <section id="unity-loading" aria-live="polite">
         <div class="loading-panel">
@@ -123,15 +123,15 @@
       }
 
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/WebGL build oct 13 v8.loader.js";
+      const loaderUrl = buildUrl + "/release.loader.js";
       const config = {
         arguments: [],
-        dataUrl: buildUrl + "/WebGL build oct 13 v8.data.unityweb",
-        frameworkUrl: buildUrl + "/WebGL build oct 13 v8.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebGL build oct 13 v8.wasm.unityweb",
+        dataUrl: buildUrl + "/release.data.unityweb",
+        frameworkUrl: buildUrl + "/release.framework.js.unityweb",
+        codeUrl: buildUrl + "/release.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "KAZI",
-        productName: "Akif's WebGL",
+        companyName: "Akif Kazi",
+        productName: "Digital Twin",
         productVersion: "0.1.0",
         autoSyncPersistentDataPath: true,
         showBanner
